@@ -116,7 +116,7 @@ class cXmlSitemapWrite extends cXmlSitemap {
 	 * 
 	 * @return bool
 	 */
-	public function save() {
+	public function save($sFileName = NULL) {
 		fwrite($this->rSitemapFile, '</'.$this->sRootNodeName.'>');
 		return fclose($this->rSitemapFile);
 	}
@@ -127,7 +127,7 @@ class cXmlSitemapWrite extends cXmlSitemap {
 	 * @return bool
 	 * @throws Exception
 	 */
-	public function saveCompressed() {
+	public function saveCompressed($sFileName = NULL) {
 		// save the file
 		$this->save();
 		
