@@ -1,0 +1,20 @@
+{
+    "name":"MyHammerOpenSource/LargeXMLSitemap",
+    "description":"PHP classes for generation of huge XML sitemaps",
+    "keywords":[ "sitemap", "generator"],
+    "minimum-stability":"dev",
+    "type":"library",
+    "license":"GNU GPLv3",
+    "homepage":"https://github.com/Flyingmana/LargeXMLSitemap",
+    "authors":[
+    ],
+    "require":{
+    },
+    "require-dev":{
+    },
+    "suggest":{
+    },
+    "autoload":{
+        "classmap": [ "src/" ]
+    }
+}
