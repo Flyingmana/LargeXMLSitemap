@@ -1,5 +1,5 @@
 {
-    "name":"myhammeropensource/largexmlsitemap",
+    "name":"flyingmana/largexmlsitemap",
     "description":"PHP classes for generation of huge XML sitemaps",
     "keywords":[ "sitemap", "generator"],
     "minimum-stability":"dev",
